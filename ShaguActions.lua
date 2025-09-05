@@ -188,7 +188,7 @@ core.load = function(self)
       end
 
       if success == true then
-        local text = '|cffaaaaaaShaguActions:|r Restored |cffffcc00%s|r [|cffff9900%s|r] on slot |cffffcc00%s|r.'
+        local text = '已恢复|cffffcc00%s|r到技能栏.'
         DEFAULT_CHAT_FRAME:AddMessage(string.format(text, name, book, slot))
       end
     end
